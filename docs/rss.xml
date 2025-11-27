@@ -1,24 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>🍊的博客</title><link>https://q-juju.github.io</link><description>欢迎来到我的博客</description><copyright>🍊的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/93122946?v=4</url><title>avatar</title><link>https://q-juju.github.io</link></image><lastBuildDate>Thu, 27 Nov 2025 02:59:38 +0000</lastBuildDate><managingEditor>🍊的博客</managingEditor><ttl>60</ttl><webMaster>🍊的博客</webMaster><item><title>电感</title><link>https://q-juju.github.io/post/dian-gan.html</link><description>&gt; [!IMPORTANT]
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>🍊的博客</title><link>https://q-juju.github.io</link><description>欢迎来到我的博客</description><copyright>🍊的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/93122946?v=4</url><title>avatar</title><link>https://q-juju.github.io</link></image><lastBuildDate>Thu, 27 Nov 2025 03:10:26 +0000</lastBuildDate><managingEditor>🍊的博客</managingEditor><ttl>60</ttl><webMaster>🍊的博客</webMaster><item><title>电感</title><link>https://q-juju.github.io/post/dian-gan.html</link><description>&gt; [!IMPORTANT]
 &gt; 电感是一种能够储存磁场能量、阻碍电流变化的电子元件
 &gt;本质：线圈中的电流变化会产生磁场变化，而磁场变化会反过来抵抗电流变化
 &gt;单位：亨利（H）
+&gt;感抗计算公式
+&gt;&lt;img width='120' height='39' alt='Image' src='https://github.com/user-attachments/assets/254ac214-c5af-40ef-bfd3-3d31822292c1' /&gt;
 
 &gt; [!TIP]
 &gt;与电容的对比
-&gt;
-1.流过电感的电流不能突变
-`Gmeek-html&lt;html&gt;
-&lt;body&gt;
-&lt;!--StartFragment--&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;
-元件 | 储能方式 | 阻碍 | 电流/电压相位
--- | -- | -- | --
-电容 | 电场储能 | 阻碍电压变化 | 电流超前电压 90°
-电感 | 磁场储能 | 阻碍电流变化 | 电压超前电流 90°
+&gt;&lt;img width='1178' height='303' alt='Image' src='https://github.com/user-attachments/assets/750c7a67-0b7c-4c4d-a16a-df1c09161e4f' /&gt;
 
-&lt;/body&gt;&lt;/html&gt;&lt;!--EndFragment--&gt;
-&lt;/body&gt;
-&lt;/html&gt;。</description><guid isPermaLink="true">https://q-juju.github.io/post/dian-gan.html</guid><pubDate>Thu, 27 Nov 2025 02:44:52 +0000</pubDate></item><item><title>低通滤波电路和高通滤波电路</title><link>https://q-juju.github.io/post/di-tong-lv-bo-dian-lu-he-gao-tong-lv-bo-dian-lu.html</link><description>&gt; [!NOTE]
+1.流过电感的电流不能突变
+。</description><guid isPermaLink="true">https://q-juju.github.io/post/dian-gan.html</guid><pubDate>Thu, 27 Nov 2025 02:44:52 +0000</pubDate></item><item><title>低通滤波电路和高通滤波电路</title><link>https://q-juju.github.io/post/di-tong-lv-bo-dian-lu-he-gao-tong-lv-bo-dian-lu.html</link><description>&gt; [!NOTE]
 &gt; 低通滤波电路
 &gt; &lt;img width='921' height='345' alt='Image' src='https://github.com/user-attachments/assets/fdfc335a-5f7e-445b-8837-221f37edd589' /&gt;
 &gt; 低通滤波电路可以让低频信号通过，衰减高频信号。</description><guid isPermaLink="true">https://q-juju.github.io/post/di-tong-lv-bo-dian-lu-he-gao-tong-lv-bo-dian-lu.html</guid><pubDate>Tue, 25 Nov 2025 07:09:08 +0000</pubDate></item><item><title>电容</title><link>https://q-juju.github.io/post/dian-rong.html</link><description>1.电容两端的相对电压不能发生突变。</description><guid isPermaLink="true">https://q-juju.github.io/post/dian-rong.html</guid><pubDate>Mon, 24 Nov 2025 11:25:57 +0000</pubDate></item><item><title>电阻</title><link>https://q-juju.github.io/post/dian-zu.html</link><description>&lt;img width='183' height='518' alt='Image' src='https://github.com/user-attachments/assets/1cdb5a28-82db-4c42-91fe-6edc3e61aa4f' /&gt;
