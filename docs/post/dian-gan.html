@@ -10,19 +10,51 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="<img width='183' height='518' alt='Image' src='https://github.com/user-attachments/assets/1cdb5a28-82db-4c42-91fe-6edc3e61aa4f' />
-电阻的分压公式，假设想求VR处的电压（很多时候V2都是GND）
+<meta name="description" content="> [!IMPORTANT]
+> 电感是一种能够储存磁场能量、阻碍电流变化的电子元件
+>本质：线圈中的电流变化会产生磁场变化，而磁场变化会反过来抵抗电流变化
+>单位：亨利（H）
 
-<img width='354' height='147' alt='Image' src='https://github.com/user-attachments/assets/4150484a-5435-42ae-bc0e-791ff7e7adbf' />。">
-<meta property="og:title" content="电阻">
-<meta property="og:description" content="<img width='183' height='518' alt='Image' src='https://github.com/user-attachments/assets/1cdb5a28-82db-4c42-91fe-6edc3e61aa4f' />
-电阻的分压公式，假设想求VR处的电压（很多时候V2都是GND）
+> [!TIP]
+>与电容的对比
+>
+1.流过电感的电流不能突变
+`Gmeek-html<html>
+<body>
+<!--StartFragment--><html><head></head><body>
+元件 | 储能方式 | 阻碍 | 电流/电压相位
+-- | -- | -- | --
+电容 | 电场储能 | 阻碍电压变化 | 电流超前电压 90°
+电感 | 磁场储能 | 阻碍电流变化 | 电压超前电流 90°
 
-<img width='354' height='147' alt='Image' src='https://github.com/user-attachments/assets/4150484a-5435-42ae-bc0e-791ff7e7adbf' />。">
+</body></html><!--EndFragment-->
+</body>
+</html>。">
+<meta property="og:title" content="电感">
+<meta property="og:description" content="> [!IMPORTANT]
+> 电感是一种能够储存磁场能量、阻碍电流变化的电子元件
+>本质：线圈中的电流变化会产生磁场变化，而磁场变化会反过来抵抗电流变化
+>单位：亨利（H）
+
+> [!TIP]
+>与电容的对比
+>
+1.流过电感的电流不能突变
+`Gmeek-html<html>
+<body>
+<!--StartFragment--><html><head></head><body>
+元件 | 储能方式 | 阻碍 | 电流/电压相位
+-- | -- | -- | --
+电容 | 电场储能 | 阻碍电压变化 | 电流超前电压 90°
+电感 | 磁场储能 | 阻碍电流变化 | 电压超前电流 90°
+
+</body></html><!--EndFragment-->
+</body>
+</html>。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://q-juju.github.io/post/dian-zu.html">
+<meta property="og:url" content="https://q-juju.github.io/post/dian-gan.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/93122946?v=4">
-<title>电阻</title>
+<title>电感</title>
 
 
 
@@ -49,13 +81,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 }
 
 </style>
-
+<style>.markdown-alert{padding:0.5rem 1rem;margin-bottom:1rem;border-left:.25em solid var(--borderColor-default,var(--color-border-default));}.markdown-alert .markdown-alert-title {display:flex;font-weight:var(--base-text-weight-medium,500);align-items:center;line-height:1;}.markdown-alert>:first-child {margin-top:0;}.markdown-alert>:last-child {margin-bottom:0;}</style><style>.markdown-alert.markdown-alert-tip {border-left-color:var(--borderColor-success-emphasis, var(--color-success-emphasis));background-color:var(--color-success-subtle);}.markdown-alert.markdown-alert-tip .markdown-alert-title {color: var(--fgColor-success,var(--color-success-fg));}</style><style>.markdown-alert.markdown-alert-important {border-left-color:var(--borderColor-done-emphasis, var(--color-done-emphasis));background-color:var(--color-done-subtle);}.markdown-alert.markdown-alert-important .markdown-alert-title {color: var(--fgColor-done,var(--color-done-fg));}</style>
 
 
 
 <body>
     <div id="header">
-<h1 class="postTitle">电阻</h1>
+<h1 class="postTitle">电感</h1>
 <div class="title-right">
     <a href="https://q-juju.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -63,7 +95,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/q-juju/q-juju.github.io/issues/2" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/q-juju/q-juju.github.io/issues/5" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -79,9 +111,23 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/1cdb5a28-82db-4c42-91fe-6edc3e61aa4f"><img width="183" height="518" alt="Image" src="https://github.com/user-attachments/assets/1cdb5a28-82db-4c42-91fe-6edc3e61aa4f" style="max-width: 100%; height: auto; max-height: 518px;"></a></p>
-电阻的分压公式，假设想求VR处的电压（很多时候V2都是GND）
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/4150484a-5435-42ae-bc0e-791ff7e7adbf"><img width="354" height="147" alt="Image" src="https://github.com/user-attachments/assets/4150484a-5435-42ae-bc0e-791ff7e7adbf" style="max-width: 100%; height: auto; max-height: 147px;"></a></p></div>
+<div class="markdown-body" id="postBody"><div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p><p>电感是一种能够储存磁场能量、阻碍电流变化的电子元件<br>
+本质：线圈中的电流变化会产生磁场变化，而磁场变化会反过来抵抗电流变化<br>
+单位：亨利（H）</p>
+</div>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>与电容的对比</p>
+</div>
+<p>1.流过电感的电流不能突变<br>
+`Gmeek-html</p>
+
+
+元件 | 储能方式 | 阻碍 | 电流/电压相位
+-- | -- | -- | --
+电容 | 电场储能 | 阻碍电压变化 | 电流超前电压 90°
+电感 | 磁场储能 | 阻碍电流变化 | 电压超前电流 90°
+
+
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
